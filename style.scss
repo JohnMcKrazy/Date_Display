@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: capitalize;
+}
+html {
+    background: url('https://www.publicdomainpictures.net/pictures/320000/velka/abstract-background-1579017268pRv.jpg')
+        center no-repeat;
+    font-size: 14px;
+    color: whitesmoke;
+    h1 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+    img {
+        width: 100%;
+    }
+}
+.body {
+    width: 100%;
+    height: 100vh;
+}
+section {
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    .time-container,
+    .date-container {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .time-container {
+        .timeSet-counter {
+            text-transform: uppercase;
+            font-size: 2rem;
+        }
+    }
+}
